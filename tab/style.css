@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f29bcf;
+}
+
+.container {
+    background: #fff;
+    padding: 50px 40px 40px 40px;
+
+    border-radius: 20px;
+
+    max-width: 950px;
+    width: 100%;
+    margin: 0 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+.container .main-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content .list {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    width: 30%;
+
+    margin-right: 50px;
+}
+
+.content .list label {
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+
+    /*background: red;*/
+    border-radius: 12px;
+    line-height: 60px;
+
+    padding-left: 15px;
+    color: #333;
+
+    z-index: 12;
+
+    transition: all 0.4s ease;
+}
+
+.content .list label:hover {
+    color: #f29bcf;
+}
+
+#home:checked ~ .list .home,
+#blog:checked ~ .list .blog,
+#help:checked ~ .list .help,
+#code:checked ~ .list .code,
+#about:checked ~ .list .about {
+    color: #fff;
+}
+
+.content .indicator {
+    height: 60px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background: #c11cde;
+
+    border-radius: 12px;
+
+    top: 0;
+
+    transition: all 0.4s ease; /*moves around */
+}
+
+#home:checked ~ .list .indicator {
+    top: 0;
+}
+
+#blog:checked ~ .list .indicator {
+    top: 60px;
+}
+
+#help:checked ~ .list .indicator {
+    top: 120px;
+}
+
+#code:checked ~ .list .indicator {
+    top: 180px;
+}
+
+#about:checked ~ .list .indicator {
+    top: 240px;
+}
+
+.container input[type="radio"] {
+    display: none;
+}
+
+.container .content .text-content {
+    width: 80%;
+    height: 100%;
+}
+.content .text-content .text {
+    display: none;
+}
+
+.content .text-content .home {
+    display: block;
+}
+
+#home:checked ~ .text-content .home, 
+#blog:checked ~ .text-content .blog,
+#help:checked ~ .text-content .help,
+#code:checked ~ .text-content .code,
+#about:checked ~ .text-content .about {
+    display: block;
+}
+
+
+#blog:checked ~ .text-content .home,
+#help:checked ~ .text-content .home,
+#code:checked ~ .text-content .home,
+#about:checked ~ .text-content .home {
+    display: none;
+}
+
+.content .text-content .title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content .text-content p {
+    text-align: justify;
+}
