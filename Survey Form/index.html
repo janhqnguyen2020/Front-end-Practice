@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pride Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Pride Survey Form</h1>
+    <p id="description">Please fill out this survey with the appropriate information</p>
+    <form id="survey-form">
+
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input id="name" type="text" name="user-name" placeholder="John/Jane Doe" required/></label>
+
+        <label for="email" id="email-label" >Enter your email: <input id="email" type="email" name="user-email" placeholder="Example@gmail.com" required/></label>
+
+        <label for="number" id="number-label" >Enter your age (years): <input id="number" type="number" name="user-number" min="18" max="65" placeholder="24" required/></label>
+      </fieldset>
+
+      <fieldset>
+        <label for="dropdown">What is your sexuality?
+          <select id="dropdown" name="dropdown">
+            <option value="">(Choose one)</option>
+            <option value="1">Heterosexual</option>
+            <option value="2">Homosexual</option>
+            <option value="3">Bisexual</option>
+            <option value="4">Pansexual</option>
+            <option value="5">Asexual</option>   
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What are your preferred pronouns?</legend>
+        <label for="he-pronouns">
+          <input type="radio" id="he-pronouns" name="pronouns" value="He/Him/His" checked />He/Him/His</label>
+        <label for="she-pronouns">
+          <input type="radio" id="she-pronouns" name="pronouns" value="She/Her/Hers" />She/Her/Hers</label>
+        <label for="they-pronouns">
+          <input type="radio" id="they-pronouns" name="pronouns" value="They/Them/Theirs" />They/Them/Theirs</label>
+      </fieldset>
+      
+      <fieldset>
+        <p>What are some services that you believe the community could <b>benefit</b> from?
+        <label for="condom">
+          <input type="checkbox" id="condom" name="condom" value="condom" />Free Condoms</label>
+        <label for="defense">
+          <input type="checkbox" id="defense" name="defense" value="defense" />Self-Defense Classes</label>
+        <label for="sex">
+        <label for="mental">
+          <input type="checkbox" id="mental" name="mental" value="mental" />Mental Health Services</label>
+          <input type="checkbox" id="sex" name="sex" value="sex" />Sexual Health Classes</label>
+        <label for="condom">
+          <input type="checkbox" id="menstrual" name="menstrual" value="menstrual" />Free Menstrual Products</label>
+        <label for="career">
+          <input type="checkbox" id="career" name="career" value="career" />Career Advising</label>
+
+      <label for="comment">Feel free to leave comments down below:
+        <textarea id="comment" name="comment" cols=60 rows=5 placeholder="I would love to see more..."></textarea></label>
+      </fieldset>
+      <input type="Submit" id="submit" value="submit" />
+    </form>
+  </body>
+</html>
