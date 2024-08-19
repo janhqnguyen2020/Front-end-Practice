@@ -1,0 +1,261 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Tribute Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-size=1.0" />
+    <meta name="description" content="Tribute Page Project" />
+    <link ref="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <h1 id="title">Chappel Roan</h1>
+      <nav>
+        <ul>
+          <li><a href="#artist-time">Timeline</a></li>
+          <li><a href="#artist-outfits">Outfits</a></li>
+        </ul>
+      </nav> 
+    </header>
+
+    <main id="main">
+      <div id="img-div">
+        <img src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/NGJVC3HFFDSZTCB2R5RLSRY25Y.jpg?auth=e51855bf65ab7c7397bd689de2e974a732ee1e2eb566a097ed373ed989e1059e&width=1440" id="image" alt="Chappel Roan stunting in a glamorous prom dress" />
+        <div id="img-caption">Chappel Roan stunting in a glamorous prom dress</div>
+      </div>
+      <section role="region" aria-labelledby="artist-time">
+        <h2 id="artist-time">Timeline</h2>
+        <fieldset id="tribute-info">
+          <p><span>
+            <span class="bold">1998 - </span>
+            </span> Kayleigh Rose Amstutz (later known as Chappell Roan) was born in Willard, Missouri</p>
+          <p><span>
+            <span class="bold">Around 2008 - </span>
+            </span> She began playing the piano</p>
+          <p><span>
+            <span class="bold">Around 2012 - </span>
+             Chappel would audition for  <i>  America's Got Talent</i>, but never advanced</p>
+          <p><span>
+            <span class="bold">Around 2013 - </span>
+            </span> She started uploading cover songs on YouTube, which drew the attention of record labels</p>
+          <p><span>
+            <span class="bold">2015 - </span>
+            </span> Signed with Atlantic Records</p>
+          <p><span>
+            <span class="bold">2016 - </span>
+            </span> Adopted the stage name Chappell Roan in honor of her late grandfather Dennis K. Chappell, combining his last name with a word from his favorite song</p>
+          <p><span>
+            <span class="bold">2017 - </span>
+              Released an EP titled <i>School Nights</i> through Atlantic Records and supported Vance Joy on his Lay It On Me Tour</p>
+          <p><span>
+            <span class="bold">2018 - </span>
+            </span>  Moved to Los Angeles, where she felt she could live openly as a queer woman and began writing songs more authentically and toured the United States with Declan McKenna</p>
+          <p><span>
+            <span class="bold">2020 - </span>
+            </span>  Began working with songwriter and producer Dan Nigro, which led to the release of "Pink Pony Club". It was during this time that Chappel Roan would go on to work multiple part-time jobs to make ends meet. In addition, this led to the release of "Love Me Anyway" and "California", but Atlantic Records would then drop them from the label</p>
+          <p><span>
+            <span class="bold">2021 - </span>
+              With Dan Nigro's focus shifted to Olivia Rodrigo’s <i>Sour</i> album, Roan moved to work independently in Missouri</p>
+          <p><span>
+            <span class="bold">2022 - </span>
+              Chappel Roan would move back to California and earned a publishing deal with <i> Sony </i>.During this time she would begin to work with Dan Nigro and release multiple songs. Her releases were unabashed in representing same-gender attraction and this soon caught the hearts of many fans. Her talent caught the attention of other artists, as Chappel Roan was invited to open for Fletcher</p>
+          <p><span>
+            <span class="bold">2023 - </span>
+              Her popularity led to the Naked in North America tour, where she featured drag queens as openers and themed events. This was also the release of her debut full-length album <i>The Rise and Fall of a Midwest Princess</i>. This also led to her second headlining tour, the Midwest Princess Tour, which included shows in North America and several international cities. Roan donated $1 per ticket sold to the nonprofit For the Gworls and included drag performers in each show</p>
+          <p><span>
+            <span class="bold">2024 - </span>
+              She opened for  Olivia Rodrigo's Guts World Tour in the United States and Canada. During this year, she released the single "Good Luck, Babe!" which addresses compulsory heterosexuality and received significant acclaim. This led to her career skyrocketing as he began performing at Coachella and Lollapalooza</p>
+        </fieldset>
+      </section>
+
+      <section role="region" aria-labelledby="artist-outfits">
+        <h2 id="artist-outfits">Outfits</h2>
+        <div class="gallery">
+          <img src="https://media.them.us/photos/6601cca3a859af6a59cc1b25/2:3/w_374,h_561,c_limit/chappell-roan-18_wide-17bb05240fbbee6b47af66550f39e5c087ef1f8e.jpeg" alt="Chappel Roan's outfit during the little desk performance">
+          <img src="https://www.usmagazine.com/wp-content/uploads/2024/06/Chappell-Roan-Had-20-Wardrobe-Malfunctions-at-Gov-Ball-2.jpg?quality=86&strip=all" alt="Chappel Roan's outfit at Governor's Ball">
+          <img src="https://i.pinimg.com/originals/39/cd/28/39cd286ffcb87d90fb453127ec88c1e5.jpg" alt="Chappel Roan's outfit at coachella">
+          <img src="https://preview.redd.it/chappell-roans-swan-lake-inspired-outfit-designed-by-gunnar-v0-rr18yitnc48d1.jpg?width=1080&crop=smart&auto=webp&s=4fdea215998d593e98c23b9361beaba068dbf608" alt="Chappel Roan's swan outfit">
+          <img src="https://pbs.twimg.com/media/GKhoPqxXcAAUplR.jpg:large" alt="Chappel Roan as Ms. Piggy">
+          <img src="https://media.pitchfork.com/photos/64d6547b11b236152dd5515d/3:2/w_1500,h_1000,c_limit/ChappellRoan-RyanClemens_HotToGo-Press-2.jpg" alt="Chappel Roan in Hot-to-Go music video">
+        </div>
+      </section>
+      <label name="footer-wiki"> Learn more about Chappel Roan by reading her <a href="https://en.wikipedia.org/wiki/Chappell_Roan" id="tribute-link" target="_blank">  Wikipedia Page</a>
+      </label>
+    <main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+header {
+  background-color: rgb(220, 100, 260);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #560764;
+  font-size: max(min(50px,2em), 75px);
+  padding-left: -20px;
+}
+
+nav {
+  width: 40%;
+  max-width: 400px;
+  height: 60px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  font-size: 30px;
+}
+
+nav > ul > li {
+  color: #560764;
+  margin: 0 0.15rem;
+  display: inline-block;
+}
+
+nav > ul > li:hover {
+  background-color: rgb(220, 170, 260);
+  color: #46265c;
+  cursor: pointer;
+}
+
+li > a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color:#aa2abbd5;
+}
+main {
+  font-family: Georgia, serif;
+}
+
+div[id="img-div"] {
+  border: 0;
+  display: grid;
+  justify-content: center;
+  max-width: 3000px;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: #aa2abbd5;
+  border-radius: 10px;
+}
+
+img[id="image"] {
+  margin: .1em auto;
+  padding: 10px auto;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid black;
+  object-fit: cover;
+  border-radius: 15px;
+  height: auto;
+}
+
+div[id="img-caption"] {
+  text-align: center;
+  font-size: 25px;
+  color: #46265c;
+}
+
+fieldset[id=tribute-info] {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #46265c;
+  width: 100%;
+  max-width: 1000;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.bold {
+  font-size: 20px;
+  color: rgb(249, 227, 250);
+  letter-spacing: 2.5px;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+fieldset p {
+  display: flex;
+  letter-spacing: 1px;
+  line-height: 25px;
+  justify-content: center;
+  text-align: center;
+}
+
+section[id="artist-outfit"]
+{
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 350px; 
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+label[name="footer-wiki"] {
+  background: rgb(127, 34, 180);
+  color: rgb(249, 227, 250);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+label a {
+  color: rgb(250, 200, 250);
+  padding-left: 1em;
+}
+
+label a:hover {
+  color: rgb(230, 0, 250);
+  background-color: rgb(250, 200, 250);
+}
+
+** end of undefined **
+
