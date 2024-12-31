@@ -1,0 +1,201 @@
+/*getting fonts from internet*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*This is like general variables that are within the style.css scope*/
+:root {
+    --accent-color: #87c1d4;
+    --base-color: white;
+    --text-color: rgb(50, 45, 69);
+    --input-color: #F3F0FF;
+}
+
+/*select everything*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* I am targeting html tag because I want all text to follow this specfic format */
+html {
+    font-family: Lato, Segoe UI, sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* picture entire webpage frame. This is the background image */
+body {
+    min-height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; /*when the content in an element box extends past one or more of the box's edges*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* picture it as the container that has all the signup input boxes */
+.wrapper-sign {
+    background-color: var(--base-color);
+    height: 95vh;
+    width: max(40%, 600px);
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-login {
+    background-color: var(--base-color);
+    height: 60vh;
+    width: max(30%, 500px);
+    padding: 10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* title */
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* stylization for form of input boxes. */
+form {
+    width: min(400px, 100%);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+} 
+
+/* This keeps icon and input box in one horizontal line. Container for icon and input box */
+form > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* stylizing icon and text box placement. The icons are sgv and can be altered */
+form label {
+    flex-shrink: 0;
+    height: 50px;
+    width: 50px;
+    background-color: var(--accent-color);
+    fill: var(--base-color);
+    color: var(--base-color);
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*input box*/
+form input {
+    box-sizing: border-box;
+    flex-grow: 1;
+    min-width: 0;
+    height: 50px;
+    padding: 1em;
+    font: inherit;
+    border-radius: 0 10px 10px 0;
+    border: 2px solid var(--input-color);
+    border-left: none;
+    background-color: var(--input-color);
+    transition: 150ms ease;
+}
+
+form input:hover {
+    border-color: var(--accent-color);
+}
+/* makes it less bold when you hover over?? */
+form input:focus {
+    outline: none;
+    border-color: var(--text-color);
+}
+
+form input::placeholder {
+    color: var(--text-color);
+    opacity: 1;
+}
+
+form button {
+    margin-top: 12px;
+    border: none;
+    border-radius: 1000px;
+    padding: 0.85em 4em;
+    background-color: var(--accent-color);
+    color: var(--base-color);
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+
+form button:hover {
+    background-color: var(--text-color);
+}
+
+form button:focus {
+    outline: none;
+    background-color: var(--text-color);
+}
+
+div p {
+    font-family: Lato, Segoe UI, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+/*login link*/
+a {
+    text-decoration: none;
+    font-family: Lato, Segoe UI, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 1100px) {
+    .wrapper {
+        width: min(600px, 100%);
+        border-radius: 0;
+    }
+}
+
+form div.incorrect label {
+    background-color: #f06272;
+}
+
+form div.incorrect input {
+    border-color: #f06272;
+}
+
+#error-name, #error-user, #error-email, #error-password, #error-repeat-password {
+    color: #f06272;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 700;
+    padding: 0;
+}
